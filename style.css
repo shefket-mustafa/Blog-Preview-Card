@@ -1,0 +1,85 @@
+body {
+  background-color: #f4d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: FigtreeVariable;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 384px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px black solid;
+  padding: 24px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 4px 4px 5px 4px;
+}
+
+.image-container {
+  object-fit: contain;
+  margin-bottom: 24px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.profile-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sub-heading {
+  font-size: 14px;
+  font-family: FigtreeVariable;
+  color: #111111;
+  font-weight: 500;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.html-heading {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.learning-heading {
+  padding: 4px 12px;
+  background-color: #f4d04e;
+  font-family: FigtreeVariable;
+  font-size: 14px;
+  border-radius: 4px;
+  font-weight: bolder;
+}
+
+.languages-heading {
+  color: #6b6b6b;
+  font-size: 16px;
+}
+
+.description-container * {
+  margin: 0;
+}
+
+.profile-img {
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+}
